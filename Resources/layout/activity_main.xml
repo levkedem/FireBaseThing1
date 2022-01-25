@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#ccd2">
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/et2"/>
+    <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:text="submit name"
+        android:id="@+id/bt2"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:id="@+id/et1"/>
+    <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:text="do it"
+        android:id="@+id/bt1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dis"
+        android:id="@+id/tv1"/>
+</LinearLayout>
